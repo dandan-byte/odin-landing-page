@@ -69,7 +69,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-h1, p {
+h1, p, h3 {
     margin: 0;
     padding: 0;
 }
@@ -136,4 +136,16 @@ img {
     border-color: #3882F6;
     border-radius: 5px;
     border-style: groove;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 860px;
+    margin: 0 auto;
+    padding: 32px;
 }
